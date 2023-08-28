@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '.\ui\main_window.bat.ui'
+# Form implementation generated from reading ui file 'main_window.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -24,9 +24,9 @@ class Ui_MainWindow(object):
         self.label_url = QtWidgets.QLabel(self.centralwidget)
         self.label_url.setObjectName("label_url")
         self.horizontalLayout.addWidget(self.label_url)
-        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit.setObjectName("lineEdit")
-        self.horizontalLayout.addWidget(self.lineEdit)
+        self.lineEdit_url = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit_url.setObjectName("lineEdit_url")
+        self.horizontalLayout.addWidget(self.lineEdit_url)
         self.verticalLayout.addLayout(self.horizontalLayout)
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
