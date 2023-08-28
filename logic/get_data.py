@@ -20,7 +20,7 @@ def get_pdf_url(url: str):
     """
     result = _get_contentId(url)
     if result is not None:
-        pdf_url = f"https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/{result}.pkg/pdf.pdf"
+        pdf_url = f"https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/{result}.pkg/pdf.pdf"
         return pdf_url
     else:
         return None

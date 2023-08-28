@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>362</width>
-    <height>92</height>
+    <width>455</width>
+    <height>107</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>智慧中小学教材下载器</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -60,7 +60,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>362</width>
+     <width>455</width>
      <height>22</height>
     </rect>
    </property>
