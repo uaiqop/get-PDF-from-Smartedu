@@ -1,0 +1,1 @@
+pyuic5.exe -o download_window.py  download_window.ui
