@@ -15,6 +15,9 @@ class Ui_MainWindow_download(object):
     def setupUi(self, MainWindow_download):
         MainWindow_download.setObjectName("MainWindow_download")
         MainWindow_download.resize(414, 60)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icon/64x64.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        MainWindow_download.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow_download)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -36,3 +39,4 @@ class Ui_MainWindow_download(object):
     def retranslateUi(self, MainWindow_download):
         _translate = QtCore.QCoreApplication.translate
         MainWindow_download.setWindowTitle(_translate("MainWindow_download", "下载中"))
+import icon_rc

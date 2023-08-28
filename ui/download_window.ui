@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>下载中</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="../icon.qrc">
+    <normaloff>:/icon/64x64.ico</normaloff>:/icon/64x64.ico</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
@@ -38,6 +42,8 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../icon.qrc"/>
+ </resources>
  <connections/>
 </ui>
