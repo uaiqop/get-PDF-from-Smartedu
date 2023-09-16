@@ -36,4 +36,4 @@ class MainWindow(QMainWindow, main_window.Ui_MainWindow, QMessageBox):
             self.window_download.show()
         else:
             # 警告用户输入错误
-            QMessageBox.warning(self, '链接错误', '请输入教材对应的链接')
+            self.warning(self, '链接错误', '请输入教材对应的链接', QMessageBox.Ok)
